@@ -1,13 +1,19 @@
 #!/bin/bash
 
-# BUG: No real time clock on raspi
 DATE=$(date +"%FT%H%MZ")
+LEXARMOUNTPATH=$(findmnt -nr -o target -S /dev/sda1)
+UUID=$(cat /proc/sys/kernel/random/uuid)
+LOGPATH=/home/pi/Documents/videos/log.txt
 
-### Convert h264 to mp4 ###
-ffmpeg -i "/home/pi/Documents/videos/video.h264" -c:v copy -f mp4 "/home/pi/Documents/videos/video.mp4"
+### Log ###
+echo "--------------" >> $LOGPATH
+echo $DATE >> $LOGPATH
+echo $UUID >> $LOGPATH
 
-# ### Cleanup h264 file ###
-mv /home/pi/Documents/videos/video.h264 /tmp/video.h264
+### Move previous recording and rename file to USB ###
+mv /home/pi/Documents/videos/video.h264 $LEXARMOUNTPATH/
+cd $LEXARMOUNTPATH
+mv video.h264 $UUID.h264
 
 # ### Start recording.. ###
 python /home/pi/Documents/videos/record.py
