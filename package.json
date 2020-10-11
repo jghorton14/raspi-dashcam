@@ -1,0 +1,22 @@
+{
+  "name": "raspi-dashcam",
+  "version": "1.0.0",
+  "description": "Raspberry Pi dashcam that records .h264 to usb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jghorton14/raspi-dashcam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jghorton14/raspi-dashcam/issues"
+  },
+  "homepage": "https://github.com/jghorton14/raspi-dashcam#readme",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}

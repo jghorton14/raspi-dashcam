@@ -1,0 +1,18 @@
+service: raspi-dashcam
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - s3:
+          bucket: raspi-dashcam
+          event: s3:ObjectCreated:*
+          rules:
+            - prefix: original/
+            - suffix: .h264

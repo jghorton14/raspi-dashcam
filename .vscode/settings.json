@@ -1,0 +1,21 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1B3409",
+    "titleBar.activeBackground": "#25480D",
+    "titleBar.activeForeground": "#F6FCF0"
+  },
+  "serverlessConsole.services": [
+    {
+      "type": "serverlessFramework",
+      "title": null,
+      "awsProfile": "default",
+      "cwd": "./",
+      "command": "serverless print",
+      "timeOffsetInMs": 0,
+      "envVars": [],
+      "stages": [
+        "dev"
+      ]
+    }
+  ]
+}
