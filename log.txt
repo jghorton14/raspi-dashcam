@@ -1,3 +1,25 @@
 --------------
-2020-10-08T2119Z
-f0c71605-dc2a-43fe-ae84-86c771d73e08
+2020-10-12T2318Z
+f03d9b74-a999-4851-95b0-462a81c4ec3e
+video.h264 file exists
+Attempting to format
+/media/pi/Lexar1/original
+Formatted File:  f03d9b74-a999-4851-95b0-462a81c4ec3e.mp4f03d9b74-a999-4851-95b0-462a81c4ec3e.h264 f03d9b74-a999-4851-95b0-462a81c4ec3e.mp4
+/media/pi/Lexar1/original
+f03d9b74-a999-4851-95b0-462a81c4ec3e.h264
+Attempting to save to s3
+original...
+f03d9b74-a999-4851-95b0-462a81c4ec3e.h264
+/media/pi/Lexar1/original
+f03d9b74-a999-4851-95b0-462a81c4ec3e.h264....
+Attempting to write..
+uploaded file and deleted file
+File f03d9b74-a999-4851-95b0-462a81c4ec3e.h264 attempted upload
+formatted...
+f03d9b74-a999-4851-95b0-462a81c4ec3e.mp4
+/media/pi/Lexar1/formatted
+f03d9b74-a999-4851-95b0-462a81c4ec3e.mp4....
+Attempting to write..
+uploaded file and deleted file
+File f03d9b74-a999-4851-95b0-462a81c4ec3e.mp4 attempted upload
+File f03d9b74-a999-4851-95b0-462a81c4ec3e.mp4 was not uploaded

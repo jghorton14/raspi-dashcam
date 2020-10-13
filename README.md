@@ -2,5 +2,7 @@
 Raspberry Pi dashcam that records .h264 to usb
 
 ### Instructions
-crontab -e
-```@reboot sleep 15s && /home/pi/Documents/videos/startup.sh```
+* npm i
+* sudo pip install boto3
+* crontab -e
+```@reboot sleep 20s && /home/pi/Documents/videos/startup.sh```
