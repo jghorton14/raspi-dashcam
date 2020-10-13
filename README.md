@@ -1,5 +1,5 @@
 # raspi-dashcam
-Raspberry Pi dashcam that records .h264 to usb
+Raspberry Pi dashcam that records .h264 to usb, upload to s3 bucket when wifi available
 
 ### Instructions
 * npm i
